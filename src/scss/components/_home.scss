@@ -1,0 +1,74 @@
+.Home {
+  position: relative;
+  height: 100vh;
+  transition: all 0.9s ease-in-out;
+
+  &__Form {
+    width: 30%;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    z-index: 1000;
+
+    @include respond(phone) {
+      width: 60%;
+    }
+  }
+
+  &__Card {
+    width: 30%;
+    position: absolute;
+    bottom: 10rem;
+    right: 1.8rem;
+    z-index: 1000;
+
+    @include respond(phone) {
+      width: 60%;
+    }
+  }
+
+  &__Body {
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+    @include respond(phone) {
+      margin-top: 14%;
+      grid-template-columns: 0fr 5fr;
+    }
+
+    &--SideBar {
+      background: #00155a;
+      -webkit-animation: slide 0.5s forwards;
+      -webkit-animation-delay: 2s;
+      animation: slide 0.5s forwards;
+      animation-delay: 2s;
+    }
+
+    &--SideBarMobile {
+      display: none;
+
+      @include respond(phone) {
+        display: flex;
+        position: fixed;
+        top: 7rem;
+        left: 0rem;
+        height: 100vh;
+        z-index: 10000;
+        background: #00155a;
+      }
+    }
+  }
+}
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    left: 0;
+  }
+}

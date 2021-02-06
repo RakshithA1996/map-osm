@@ -1,0 +1,49 @@
+.LoadCountry {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__Select {
+    width: 70%;
+    border: none;
+    padding: 1.6rem;
+    background: #ffffff;
+    border-radius: 4px;
+
+    @include respond(phone) {
+      padding: 1rem;
+    }
+
+    &--Option {
+      border: none;
+      background: #ffffff;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__Button {
+    width: 25%;
+    padding: 1.5rem 0;
+    border: none;
+    border-radius: 4px;
+    margin-left: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: $color-primary-blue;
+
+    @include respond(phone) {
+      padding: 1.1rem;
+    }
+  }
+
+  &__Select:focus,
+  &__Button:focus {
+    outline: none;
+  }
+
+  &__Button:hover {
+    cursor: pointer;
+  }
+}
