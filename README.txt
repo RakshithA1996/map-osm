@@ -1,6 +1,10 @@
+
+INSTRUCTION :
+
+
 Flow of execution :
 
-step 1 : Extract the zip file *
+step 1 : Clone this project from git*
 
 step 2 : Go to the project directory open terminal and run "npm i". *
 
