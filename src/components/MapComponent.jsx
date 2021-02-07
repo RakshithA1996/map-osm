@@ -1,4 +1,4 @@
-import React ,{useState, useEffect, useRef} from 'react';
+import React from 'react';
 import {MapContainer, TileLayer} from 'react-leaflet';
 import osm from "../osm-provider";
 import "leaflet/dist/leaflet.css";
