@@ -19,7 +19,7 @@ step 5 : Modal will open with an form, enter teh below credentials. *
 
 step 6 : A dummy sidebar is peresnt at the top left of header. click on 3 line image to toggle sidebar. 
 
-step 7 : A floating select box and button will be present on the screen. select the available country to display that country in the map.
+step 7 : A floating select box input and button will be present on the screen. select the available country to display that country in the map.
 
 step 8 : Top of the sidebar there is dark mode toggle button. click on that to turn on dark mode and turn off dark mode.
 
