@@ -3,8 +3,6 @@ import { Component } from 'react';
 import { connect } from 'react-redux';
 import blackNav from "../images/blackNav.svg";
 import whiteNav from "../images/whiteNav.png";
-import dark from "../images/dark.png";
-import light from "../images/light.png";
 import setDark from "../redux/actions/setDark";
 import setNav from "../redux/actions/setNavbar";
 import setLogin from "../redux/actions/setLogin";
