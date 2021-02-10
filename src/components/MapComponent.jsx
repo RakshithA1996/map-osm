@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 import { MapChildComponent } from './MapChildComponent';
 import {useSelector} from "react-redux";
 
-const MapComponent = (props) => {
+const MapComponent = () => {
     const coordinate = useSelector(state => state.coordinate);
     
     return (

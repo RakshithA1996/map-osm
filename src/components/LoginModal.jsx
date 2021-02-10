@@ -24,7 +24,7 @@ class LoginModal extends Component {
 
     sumbitLoginCheck = () => {
         const {name, password} = this.state;
-        if(name === "admin123" && password === "password@123"){
+        if(name === "rakshith123" && password === "password@123"){
             this.props.submitted();
         }else{
             toast.error("username and password not valid");

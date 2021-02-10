@@ -2,7 +2,7 @@ import React ,{useState} from 'react';
 import {useDispatch} from 'react-redux';
 import setCoordinates from "../redux/actions/setCoordinates";
 
-const LoadCountry = (props) => {
+const LoadCountry = () => {
     const [loadValue, setValue] = useState("UNITED_STATES");
     const dispatch = useDispatch();
 
@@ -11,12 +11,12 @@ const LoadCountry = (props) => {
     }
 
     const clickLoad = () => {
-        dispatch(setCoordinates(loadValue))
+        dispatch(setCoordinates(loadValue));
     }
 
     return (
         <div className="LoadCountry">
-            <select className="LoadCountry__Select" onChange={setLoadValue} value={loadValue}>
+            <select className="LoadCountry__Select" onChange={setLoadValue}>
                 <option className="LoadCountry__Select--Option" value="UNITED_STATES">United States</option>
                 <option className="LoadCountry__Select--Option" value="INDIA">India</option>
                 <option className="LoadCountry__Select--Option" value="UNITED_KINGDOM">United Kingdom</option>
