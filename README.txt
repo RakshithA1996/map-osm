@@ -14,7 +14,7 @@ step 4 : On the header there is an login button, click on that. *
 
 step 5 : Modal will open with an form, enter teh below credentials. *
 
-         username : admin123
+         username : rakshith123
          password : password@123
 
 step 6 : A dummy sidebar is peresnt at the top left of header. click on 3 line image to toggle sidebar. 

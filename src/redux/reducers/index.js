@@ -8,7 +8,7 @@ const rootReducer = combineReducers({
     coordinate : coordinateReducer,
     dark : darkReducer,
     navbar : navReducer,
-    loginAuth: loginReducer
+    loginAuth: loginReducer,
 })
 
 export default rootReducer;

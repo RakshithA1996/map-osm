@@ -9,7 +9,7 @@ const coordinateReducer = (state = initCoordinate, action) => {
                     lat:37.0902,
                     lng:-95.7129
                 },
-                zoomLevel: window.screen.availWidth > 700 ? 4.5 : 2.5,
+                zoomLevel: window.screen.availWidth > 700 ? 4.5 : 3.5,
                 cardDetails : {
                     symbol:"$",
                     currency:"United States Dollar",
